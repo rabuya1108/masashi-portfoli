@@ -1,0 +1,60 @@
+
+body {
+  margin: 0;
+  background: url('assets/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Arial Black', sans-serif;
+}
+
+.header {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  font-size: 3rem;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  gap: 20px;
+}
+
+.avatar {
+  width: 180px;
+  border-radius: 15px;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.social-icons img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.bottom-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.bottom-icons img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+}
